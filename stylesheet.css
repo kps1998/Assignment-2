@@ -64,12 +64,13 @@ a
          list-style-image: url(favicon-32x32_1.png);
          display: inline;
          font-family: monospace;
+         
      }
 .ol22
      {
-          list-style-image: url(favicon-32x32_2.png);
-          display: inline;
-         font-family: monospace;
+        list-style-image: url(favicon-32x32_2.png);
+        display: inline;
+        font-family: monospace;
      }
 .ol33
      {
