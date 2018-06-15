@@ -53,6 +53,7 @@ body
         opacity: 1.0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 95%;
+        padding-bottom: 10px;
     }
 a
     {
@@ -62,31 +63,40 @@ a
      {
          list-style-image: url(favicon-32x32_1.png);
          display: inline;
+         font-family: monospace;
      }
 .ol22
      {
           list-style-image: url(favicon-32x32_2.png);
           display: inline;
+         font-family: monospace;
      }
 .ol33
      {
          list-style-image: url(favicon-32x32_5.png);
          display: inline;
+         font-family: monospace;
      }
 .ol1
     {
         list-style-image: url(favicon-32x32_1.png);
         margin-left: 50px;
+        font-family: cursive;
+        justify-content: center;
     }
 .ol2
     {
         list-style-image: url(favicon-32x32_2.png);
         margin-left: 50px;
+        font-family: cursive;
+        justify-content: center;
     }
 .ol3
     {
         list-style-image: url(favicon-32x32_5.png);
         margin-left: 50px;
+        font-family: cursive;
+        justify-content: center;
     }
 .bottomnav
     {
@@ -98,4 +108,5 @@ a
         width : 100%;
         opacity: 1.0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-family: monospace;
     }
