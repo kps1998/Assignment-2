@@ -19,7 +19,29 @@ body
         opacity: 1.0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-.contents
+.topnav a 
+    {
+        float: right;
+        font-family: monospace;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 60px;
+        margin-bottom: 10px;
+        padding-left: 40px; 
+        padding-bottom: 15px;    
+        padding-right: 40px;
+        padding-top: 15px;
+        color: white;
+        font-size: 17px;
+        background-color: crimson;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: crimson;
+        border-width: medium;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-decoration: none;
+    }
+.index
     {
         background-color: white;
         opacity: 1.0;
@@ -36,15 +58,41 @@ a
     {
         color: crimson;
     }
+.ol11
+     {
+         list-style-image: url(favicon-32x32_1.png);
+         display: inline;
+     }
+.ol22
+     {
+          list-style-image: url(favicon-32x32_2.png);
+          display: inline;
+     }
+.ol33
+     {
+         list-style-image: url(favicon-32x32_5.png);
+         display: inline;
+     }
 .ol1
     {
         list-style-image: url(favicon-32x32_1.png);
     }
 .ol2
     {
-         list-style-image: url(favicon-32x32_2.png);   
+         list-style-image: url(favicon-32x32_2.png);
     }
 .ol3
     {
         list-style-image: url(favicon-32x32_5.png)
+    }
+.bottomnav
+    {
+        background-color: white;
+        color: crimson;
+        bottom: 0;
+        padding: 0px;
+        margin: 0px;
+        width : 100%;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
