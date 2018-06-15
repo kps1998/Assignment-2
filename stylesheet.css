@@ -76,14 +76,17 @@ a
 .ol1
     {
         list-style-image: url(favicon-32x32_1.png);
+        margin-left: 50px;
     }
 .ol2
     {
-         list-style-image: url(favicon-32x32_2.png);
+        list-style-image: url(favicon-32x32_2.png);
+        margin-left: 50px;
     }
 .ol3
     {
-        list-style-image: url(favicon-32x32_5.png)
+        list-style-image: url(favicon-32x32_5.png);
+        margin-left: 50px;
     }
 .bottomnav
     {
