@@ -1,0 +1,50 @@
+body
+    {
+        background-image: url("uncolored-wooden-table-panel-texture-37990351.jpg");
+        margin: 0px;
+        padding: 0px;
+    }
+.center 
+    {
+        text-align: center;
+        list-style-position: inside;
+    }
+.topnav 
+    {
+        background-color: white;
+        overflow: hidden;
+        position: fixed;
+        top: 0;    
+        width : 100%;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.contents
+    {
+        background-color: white;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.about
+    {
+        background-color: white;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 95%;
+    }
+a
+    {
+        color: crimson;
+    }
+.ol1
+    {
+        list-style-image: url(favicon-32x32_1.png);
+    }
+.ol2
+    {
+         list-style-image: url(favicon-32x32_2.png);   
+    }
+.ol3
+    {
+        list-style-image: url(favicon-32x32_2.png)
+    }

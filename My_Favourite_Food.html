@@ -1,45 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            body
-            {
-                background-image: url("uncolored-wooden-table-panel-texture-37990351.jpg");
-            }
-            .center 
-            {
-                text-align: center;
-                list-style-position: inside;
-            }
-            body 
-            {
-                margin: 0px;
-                padding: 0px;
-            } 
-            .topnav 
-            {
-                background-color: white;
-                overflow: hidden;
-                position: fixed;
-                top: 0;    
-                width : 100%;
-                opacity: 1.0;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-            .contents
-            {
-                background-color: white;
-                opacity: 1.0;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-            .about
-            {
-                background-color: white;
-                opacity: 1.0;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                width: 95%;
-            }
-        </style>    
+        <link href="stylesheet.css" rel="stylesheet">
+        <!-- For favicon-->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="mstile-144x144.png" />
         <title>
             My Favourite Food
         </title>
@@ -47,21 +16,27 @@
     <body>
         
         <div class="topnav">
-            <center><img src="Capture2.png" height="90px"></center>
+            <center><img src="Capture2.png" height="90px" alt="Logo" ></center>
         </div>
         <center>
             <img src="f1.jpg" height="720" width="1349" alt="Food">
             <br />
+            <hr />
             <br />
             <div class="contents">
             <b><font face="Times New Roman" size="6" color="red">Contents</font></b>
             <br />
-            <h3><a href="My_Favourite_Food.html#pizza">A.Pizza</a></h3>
-            <h3><a href="My_Favourite_Food.html#butterchicken">B.Butter Chicken</a></h3>
-            <h3><a href="My_Favourite_Food.html#pavbhaji">C.Pav Bhaji</a></h3>
+            <ol class="center ol1">          
+                <li><h3><a href="My_Favourite_Food.html#pizza">Pizza</a></h3></li>
+            <ol class="center ol2">
+                <l1><h3><a href="My_Favourite_Food.html#butterchicken">Butter Chicken</a></h3></l1>
+            <ol class="center ol3">
+                <li><h3><a href="My_Favourite_Food.html#pavbhaji">Pav Bhaji</a></h3></li>
             </div>    
             <br />
-            <ol class="center" type="A">
+            <hr />
+            <br />
+            <ol class="center ol1">
                 <div class="about">
                     <li id="pizza"><h1><a href="Pizza%20-%20Wikipedia.pdf">Pizza</a></h1> <img src="pizza1.jpeg" height="720px" width="1100px" alt="Pizza">
                         <p><h3>Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It can also be topped with additional vegetables, meats, and condiments, and can be made without cheese.
@@ -79,6 +54,11 @@
                         pizza is eaten with a fork and knife in restaurants, but is also sold to take away and eaten out of hand. Frozen pizza became popular
                         in the late 20th century.</h3></p></li>
                 </div>
+                </ol>
+                <br />
+                <hr />
+                <br />
+                <ol class="center ol2">
                 <div class="about">
                     <li id="butterchicken"><h1><a href="Butter%20chicken%20-%20Wikipedia.pdf">Butter Chicken</a></h1> <img src="iStock-156257590-1.jpg" height="720px" width="1100px"> 
                     <p><h3>Butter Chicken is a dish, from the Indian subcontinent, of chicken in a mildly spiced curry sauce.The dish has its roots in Moti Mahal Daryaganj. It was developed by three Indians, Kundan Lal Jaggi, Kundan Lal Gujral and
@@ -88,6 +68,11 @@
                     mixing the leftover chicken in a tomato gravy, rich in butter and cream.Chicken is marinated for several hours in a lemon juice, dahi (yogurt) and spice mixture. The spices may include garam masala, ginger, garlic, pepper, coriander, cumin,
                     turmeric and chili.</h3></p></li>
                 </div>
+                </ol>
+                <br />
+                <hr />
+                <br />
+                <ol class="center ol3">
                 <div class="about">
                     <li id="pavbhaji"><h1><a href="Pav%20bhaji%20-%20Wikipedia.pdf">Pav Bhaji</a></h1> <img src="pav-bhaji-recipe-step-by-step-instructions.jpg" height="720px" width="1100px"> 
                     <p><h3>Pav bhaji is a fast food dish from India, consisting of a thick vegetable curry, fried and served with a soft bread roll.The dish originated in the 1850s as a fast lunchtime dish for textile mill workers in Mumbai.Pav bhaji was later served at restaurants throughout the cityPav bhaji is now offered at outlets from simple hand carts to formal restaurants in India and abroad.Pav bhaji has many variations in ingredients and garnishes, but is essentially a spiced mixture of mashed vegetables in a thick
@@ -95,4 +80,4 @@
                 </div>
             </ol>
         </center>        
-</html>    
+</html>
