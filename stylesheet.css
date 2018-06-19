@@ -8,6 +8,7 @@ body
     {
         text-align: center;
         list-style-position: inside;
+        color: crimson;
     }
 .topnav 
     {
@@ -41,11 +42,16 @@ body
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-decoration: none;
     }
+.link
+    {
+        color: crimson;    
+    }
 .index
     {
-        background-color: white;
+        background-color: crimson;
         opacity: 1.0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: crimson;
     }
 .about
     {
@@ -64,19 +70,22 @@ a
          list-style-image: url(favicon-32x32_1.png);
          display: inline;
          font-family: monospace;
+         color: black;
          
      }
 .ol22
      {
-        list-style-image: url(favicon-32x32_2.png);
+        list-style-image: url(favicon32x32_8.png);
         display: inline;
         font-family: monospace;
+         color: black;
      }
 .ol33
      {
-         list-style-image: url(favicon-32x32_5.png);
+         list-style-image: url(favicon-32x32_7.png);
          display: inline;
          font-family: monospace;
+         color: black;
      }
 .ol1
     {
@@ -84,20 +93,23 @@ a
         margin-left: 50px;
         font-family: cursive;
         justify-content: center;
+        color: black;
     }
 .ol2
     {
-        list-style-image: url(favicon-32x32_2.png);
+        list-style-image: url(favicon32x32_8.png);
         margin-left: 50px;
         font-family: cursive;
         justify-content: center;
+        color: black;
     }
 .ol3
     {
-        list-style-image: url(favicon-32x32_5.png);
+        list-style-image: url(favicon-32x32_7.png);
         margin-left: 50px;
         font-family: cursive;
         justify-content: center;
+        color: black;
     }
 .bottomnav
     {
@@ -115,4 +127,16 @@ a
     {
         max-width: 100%;
         height: auto;
+    }
+.button2
+    {   
+        background-color: #0c8ab6;
+    }
+.button3
+    {   
+        background-color: #57385c;
+    }
+.button4
+    {   
+        background-color: #a2d7ee;
     }

@@ -2,7 +2,14 @@
 <html>
     <head>
         <link href="stylesheet.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
         <!-- For favicon-->
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
@@ -16,6 +23,13 @@
     </head>
     <body>
         
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  
+        
         <div class="topnav">
             <left><img src="Capture2.png" height="90px" alt="Logo" ></left>
                 <a href="index.html#about"><b>About</b></a>
@@ -25,35 +39,37 @@
         <center>
             <img class= "limg" src="f1.jpg" height="720" width="1349" alt="Food" id="topimage">
             <br />
-            <br />
-            <br />
             <hr />
             <br />
-            <br />
             <div class="index" id="index">
-                <b><u><font face="Monospace" size="6" color="red">Index</font></u></b>
+                <div id="indextext" >
+                    <b><u><font face="Monospace" size="7" color="white">Index</font></u></b>
+                </div>
             <br />    
             <br />
                 <div class="button2">
             <ol class="center ol11">
-                <li><h3><a href="My_Favourite_Food.html#pizza">Pizza</a></h3></li>
+                <li><h3><a class="link" href="index.html#pizza">Pizza</a></h3><img src="pizza-cheese.gif" height="200px"></li>
             </ol>
                 </div>
+                <div class="button3">
             <ol class="center ol22">    
-                <li><h3><a href="My_Favourite_Food.html#butterchicken">Butter Chicken</a></h3></li>
+                <li><h3><a class="link" href="index.html#butterchicken">Butter Chicken</a></h3><img src="dancing_turkey.gif" height="200px"></li>
             </ol>    
+                </div>
+                <div class="button4">
             <ol class="center ol33">
-                <li><h3><a href="My_Favourite_Food.html#pavbhaji">Pav Bhaji</a></h3></li>
+                <li><h3><a class="link" href="index.html#burger">Burger</a></h3><img src="loopable_081516_1435.gif" height="200px"></li>
             </ol>    
+                </div>    
             </div>
-            <br />
             <br />
             <hr />
             <br />
             <ol class="center ol1">
                 <div class="about">
-                    <li id="pizza"><h1><a href="Pizza%20-%20Wikipedia.pdf">Pizza</a></h1> <img class="limg" src="pizza1.jpeg" height="720px" width="1100px" alt="Pizza">
-                        <p><h3>Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It can also be topped with additional vegetables, meats, and condiments, and can be made without cheese.
+                    <li id="pizza"><h1><a class="link" href="Pizza%20-%20Wikipedia.pdf">Pizza</a></h1> <img class="limg" src="pizza1.jpeg" height="720px" width="1100px" alt="Pizza">
+                        <p><h3 id="">Pizza is a traditional Italian dish consisting of a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It can also be topped with additional vegetables, meats, and condiments, and can be made without cheese.
                         The term pizza was first recorded in the 10th century, in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on
                         the border with Campania.Modern pizza was invented in Naples, and the dish and its variants have since become popular and
                         common in many areas of the world.In 2009, upon Italy's request, Neapolitan pizza was registered with the European Union as a
@@ -71,11 +87,10 @@
                 </ol>
                 <br />
                 <hr />
-                <br />
                 <ol class="center ol2">
                 <div class="about">
-                    <li id="butterchicken"><h1><a href="Butter%20chicken%20-%20Wikipedia.pdf">Butter Chicken</a></h1> <img class="limg" src="iStock-156257590-1.jpg" height="720px" width="1100px"> 
-                    <p><h3>Butter Chicken is a dish, from the Indian subcontinent, of chicken in a mildly spiced curry sauce.The dish has its roots in Moti Mahal Daryaganj. It was developed by three Indians, Kundan Lal Jaggi, Kundan Lal Gujral and
+                    <li id="butterchicken"><h1><a class="link" href="Butter%20chicken%20-%20Wikipedia.pdf">Butter Chicken</a></h1> <img class="limg" src="iStock-156257590-1.jpg" height="720px" width="1100px"> 
+                    <p><h3 id="h32">Butter Chicken is a dish, from the Indian subcontinent, of chicken in a mildly spiced curry sauce.The dish has its roots in Moti Mahal Daryaganj. It was developed by three Indians, Kundan Lal Jaggi, Kundan Lal Gujral and
                     Thakur Dass all Punjabi Hindu restaurateurs who were the founders of Moti Mahal restaurant in Delhi,
                     India.
                     The dish was created by the three partners at their restaurant in Delhi in the 1950s.The dish was made "By Chance" by
@@ -85,15 +100,19 @@
                 </ol>
                 <br />
                 <hr />
-                <br />
                 <ol class="center ol3">
                 <div class="about">
-                    <li id="pavbhaji"><h1><a href="Pav%20bhaji%20-%20Wikipedia.pdf">Pav Bhaji</a></h1> <img class="limg" src="pav-bhaji-recipe-step-by-step-instructions.jpg" height="720px" width="1100px"> 
-                    <p><h3>Pav bhaji is a fast food dish from India, consisting of a thick vegetable curry, fried and served with a soft bread roll.The dish originated in the 1850s as a fast lunchtime dish for textile mill workers in Mumbai.Pav bhaji was later served at restaurants throughout the cityPav bhaji is now offered at outlets from simple hand carts to formal restaurants in India and abroad.Pav bhaji has many variations in ingredients and garnishes, but is essentially a spiced mixture of mashed vegetables in a thick
-                    gravy served hot with a soft white bread roll, usually cooked on a flat griddle (tava).<br /></h3></p></li>
+                    <li id="burger"><h1><a class="link" href="Veggie%20burger%20-%20Wikipedia.pdf">Burger</a></h1> <img class="limg" src="0d26ee59-813-lucyjuicycrunchburger-land1.jpg" height="720px" width="1100px"> 
+                    <p><h3 id="h33">A veggie burger is a burger that does not contain meat. The patty of a veggie burger may be made from ingredients like beans, especially soybeans and tofu, nuts, grains, seeds or fungi such as mushrooms or mycoprotein, and in the most modern version, realistic, yet still fully plant-based, meat substitutes like Gardein.
+                    The patties that are the essence of a veggie burger have existed in various Eurasian cuisines for millennia, including in the form of disc-shaped grilled or fried meatballs or as koftas, a commonplace item in Indian cuisine. These may contain meats or be made of entirely vegetarian ingredients such as legumes or other plant-derived proteins. While it is not possible, or even necessary, to identify the 'inventor' of the veggie burger, there have been numerous claimants.
+
+                    The veggie burger, by name, may have been created in London in 1982 by Gregory Sams, who called it the 'VegeBurger'. Gregory and his brother                         Craig had run a natural food restaurant in Paddington since the 1960s;[1] a Carrefour hypermarket in Southampton sold 2000                       packets in three weeks                      after its launch.
+
+                    Using the name Gardenburger, an early veggie burger was developed by Paul Wenner around 1980 or 1981 in Wenner's vegetarian restaurant, The                           Gardenhouse, in Gresham, Oregon.<br /></h3></p></li>
                 </div>
             </ol>
-        </center>     
+        </center>
+    <br />
     <div class="bottomnav" id="about">
         <center>
             <h2><u><b>About</b></u></h1>
@@ -101,10 +120,12 @@
                 <h6>Made by KPS</h6>
         </center>
     </div>    
+    <br />
     <div class="bottomnav" id="contact">
         <center>        
             <h2><u><b>Contact us</b></u></h2>
             <h4>kingkanwar07@gmailcom</h4>
         </center>    
     </div>
+</body>
 </html>
