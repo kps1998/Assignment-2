@@ -59,7 +59,7 @@ body
         opacity: 1.0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 95%;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 a
     {
@@ -93,7 +93,7 @@ a
         margin-left: 50px;
         font-family: cursive;
         justify-content: center;
-        color: black;
+        color: #ffdb04;
     }
 .ol2
     {
@@ -101,7 +101,7 @@ a
         margin-left: 50px;
         font-family: cursive;
         justify-content: center;
-        color: black;
+        color: #febe7e;
     }
 .ol3
     {
@@ -109,7 +109,7 @@ a
         margin-left: 50px;
         font-family: cursive;
         justify-content: center;
-        color: black;
+        color: #da2925;
     }
 .bottomnav
     {
