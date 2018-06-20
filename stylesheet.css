@@ -20,7 +20,7 @@ body
         opacity: 1.0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-.topnav a 
+#link 
     {
         float: right;
         font-family: monospace;
@@ -60,6 +60,7 @@ body
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 95%;
         padding-bottom: 0px;
+        text-shadow: 1px 1px 4px #000000;
     }
 a
     {
@@ -126,6 +127,7 @@ a
 .limg
     {
         max-width: 100%;
+        width: 1200px;
         height: auto;
     }
 .button2
